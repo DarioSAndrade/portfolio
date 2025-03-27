@@ -1,50 +1,34 @@
+
 body {
+    display: flex;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+aside {
+    background: #2f3542;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+}
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+h1, h2, h3 {
+    margin: 10px 0;
 }
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: space-around;
     padding: 0;
 }
 nav ul li a {
     color: white;
     text-decoration: none;
-}
-main {
-    padding: 2rem;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-input, textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-}
-button {
-    background-color: #333;
-    color: white;
-    padding: 0.7rem;
-    border: none;
-    cursor: pointer;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+    display: block;
+    margin: 5px 0;
 }
