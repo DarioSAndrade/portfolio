@@ -1,55 +1,46 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Diego Lopes</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Generic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <aside>
+        <img src="avatar.jpg" alt="Avatar" class="avatar">
+        <h1>JOHN DOE</h1>
+        <p>Data Engineer</p>
         <nav>
-            <h1>Diego Lopes</h1>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EXPERIENCE</a></li>
+                <li><a href="#">EDUCATION</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">CERTIFICATIONS</a></li>
+                <li><a href="#">ARTICLES</a></li>
             </ul>
         </nav>
-    </header>
+    </aside>
     <main>
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Desenvolvedor Front-End apaixonado por tecnologia e soluções criativas.</p>
+        <section>
+            <h2>Experience</h2>
+            <h3>Senior Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </section>
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="grid">
-                <article>
-                    <h3>Projeto 1</h3>
-                    <p>Descrição do projeto com boas práticas e acessibilidade.</p>
-                </article>
-                <article>
-                    <h3>Projeto 2</h3>
-                    <p>Outro exemplo de trabalho com HTML5 e design responsivo.</p>
-                </article>
-            </div>
+        <section>
+            <h2>Education</h2>
+            <p>Bachelor in Computer Science - University XYZ</p>
         </section>
-        <section id="contato">
-            <h2>Contato</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>AWS</li>
+            </ul>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Diego Lopes</p>
-    </footer>
 </body>
 </html>
