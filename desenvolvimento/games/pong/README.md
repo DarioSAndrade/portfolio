@@ -2,6 +2,9 @@
 
 Um tributo ao clássico jogo de tênis digital que marcou o início da era dos videogames. Desenvolvido com HTML5, CSS e JavaScript, este projeto revive a experiência do Telejogo brasileiro, lançado em 1978.
 
+<img width="1018" alt="image" src="https://github.com/user-attachments/assets/34c54ac7-8fa3-463b-9461-d894bd693866" />
+
+
 ## 🎮 Sobre o Jogo Original
 O Telejogo foi o primeiro console de videogame fabricado no Brasil, lançado pela Philco-Ford. Ele trazia jogos baseados em **Pong**, o primeiro jogo eletrônico de sucesso, criado por **Nolan Bushnell** da Atari em 1972.
 
