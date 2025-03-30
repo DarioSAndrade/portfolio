@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo Sudoku</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Jogo de Sudoku</h1>
+    <p>Preencha os espaços vazios com números de 1 a 9 sem repetir na mesma linha, coluna ou bloco 3x3.</p>
+    <table id="sudoku-board"></table>
+    <div class="buttons">
+      <button onclick="checkSudoku()">Verificar</button>
+      <button onclick="revealSolution()">Ver Resultado</button>
+      <button onclick="generateSudoku()">Nova Partida</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
