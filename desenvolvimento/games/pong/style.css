@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-color: #5f3dc4; /* roxo retrô */
+}
+canvas {
+    display: block;
+    margin: auto;
+    background-color: #5f3dc4;
+}
