@@ -8,7 +8,7 @@ Um tributo ao clássico jogo de tênis digital que marcou o início da era dos v
 ## 🎮 Sobre o Jogo Original
 O Telejogo foi o primeiro console de videogame fabricado no Brasil, lançado pela Philco-Ford. Ele trazia jogos baseados em **Pong**, o primeiro jogo eletrônico de sucesso, criado por **Nolan Bushnell** da Atari em 1972.
 
-A versão do **Telejogo Tênis** era extremamente simples: dois jogadores controlavam barras verticais que batiam uma bola quadrada de um lado para o outro da tela. Uma linha central dividia o campo, simulando uma quadra de tênis, e a pontuação era exibida no topo da tela.
+A versão do **Telejogo Pong** era extremamente simples: dois jogadores controlavam barras verticais que batiam uma bola quadrada de um lado para o outro da tela. Uma linha central dividia o campo, simulando uma quadra de tênis, e a pontuação era exibida no topo da tela.
 
 ## 💻 Sobre Este Projeto
 
@@ -26,13 +26,6 @@ Este projeto foi desenvolvido com:
 - 🧠 Oponente se movimenta automaticamente seguindo a bola.
 - 🏁 O primeiro a alcançar 10 pontos vence.
 
-## 📁 Estrutura de Arquivos
-```
-telejogo_tenis/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 ```
 
 ## 🚀 Como Executar
@@ -44,8 +37,8 @@ telejogo_tenis/
 3. Use as teclas `W` e `S` para jogar.
 
 ## 📚 Regras básicas
-- Jogador branco (lado direito): você.
-- Jogador preto (lado esquerdo): IA.
+- Jogador (lado esquerdo): você.
+- Jogador (lado direito): Computador.
 - Bola rebate nas paredes e nas raquetes.
 - Ganha quem atingir 10 pontos primeiro.
 
