@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    margin: 20px auto;
+    border: 2px solid #333;
+}
+.cell {
+    width: 60px;
+    height: 60px;
+}
+.white {
+    background-color: #eee;
+}
+.black {
+    background-color: #444;
+}
+.piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+.piece.white {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.piece.black {
+    background-color: black;
+}
+.info {
+    margin: 10px;
+}
+.winner-message {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
